@@ -1,0 +1,16 @@
+{
+  "$schema": "../../node_modules/@tauri-apps/cli/schema.json",
+  "identifier": "default",
+  "description": "Default permissions for the starter app.",
+  "windows": ["*"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-show",
+    "core:window:allow-hide",
+    "core:window:allow-close",
+    "core:window:allow-start-dragging",
+    "core:window:allow-minimize",
+    "core:window:allow-maximize",
+    "core:window:allow-toggle-maximize"
+  ]
+}

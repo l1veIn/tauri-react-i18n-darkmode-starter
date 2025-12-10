@@ -13,9 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - platform: 'macos-latest' # for Arm64
+          - platform: 'macos-14' # Apple Silicon runner
             args: '--target aarch64-apple-darwin'
-          - platform: 'macos-13' # for Intel
+          - platform: 'macos-14' # Cross-compile Intel on Apple Silicon runner (macOS 13 is deprecated)
             args: '--target x86_64-apple-darwin'
           - platform: 'ubuntu-22.04' # for Linux
             args: ''

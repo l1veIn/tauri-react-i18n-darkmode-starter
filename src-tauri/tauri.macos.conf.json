@@ -1,0 +1,23 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "app": {
+    "windows": [
+      {
+        "title": "Starter Template",
+        "width": 1200,
+        "height": 800,
+        "label": "main",
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true,
+        "transparent": false,
+        "visible": false,
+        "center": true,
+        "titleBarStyle": "Overlay",
+        "trafficLightPosition": { "x": 20, "y": 20 },
+        "hiddenTitle": true,
+        "theme": "Dark"
+      }
+    ]
+  }
+}
